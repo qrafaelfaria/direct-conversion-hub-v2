@@ -17,14 +17,14 @@ const HeroSection = () => {
           </div>
 
           <h1 className="text-3xl sm:text-5xl lg:text-6xl font-display font-black leading-tight text-foreground text-balance mb-6">
-            +200 Capas de Caderno{" "}
-            <span className="text-[#ff0073]">Infantis Editáveis</span>
+            +150 Moldes de{" "}
+            <span className="text-[#ff0073]">Caixa Mini Confeiteiro</span>
           </h1>
 
-          <img src="/HeroFinal.jpg" alt="Descrição da Imagem" className="mx-auto mb-8 w-full max-w-7xl h-auto object-contain" />
+          <img src="/Pascoa.png" alt="Descrição da Imagem" className="mx-auto mb-8 w-full max-w-7xl h-auto object-contain mt-12" />
 
           <p className="text-lg sm:text-xl text-black max-w-2xl mx-auto mb-8 text-balance">
-            Edite e imprima! Rápido, fácil, sem stress!
+            Moldes prontos para impressão e editáveis no Canva! 
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">

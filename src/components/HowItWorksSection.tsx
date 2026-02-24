@@ -16,7 +16,7 @@ const HowItWorksSection: React.FC = () => {
               CHEGA NO E-MAIL
             </h3>
             <p className="text-gray-700 text-center">
-              Após a compra você recebe o acesso ao kit completo de capas de caderno personalizadas, pronto para abrir no Canva.
+              Após a compra você recebe o acesso ao kit completo diretamente no seu email, pronto para abrir no Canva.
             </p>
           </div>
 
@@ -38,7 +38,7 @@ const HowItWorksSection: React.FC = () => {
               BAIXE, IMPRIMA E USE
             </h3>
             <p className="text-gray-700 text-center">
-              Exporte em alta qualidade, imprima quantas vezes quiser e tenha capas únicas e profissionais para usar ou vender.
+              Exporte em alta qualidade, imprima quantas vezes quiser e tenha caixas únicas e profissionais para usar ou vender.
             </p>
           </div>
         </div>

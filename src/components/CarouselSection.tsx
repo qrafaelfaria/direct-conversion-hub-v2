@@ -1,20 +1,16 @@
 import { motion } from "framer-motion";
 import { CheckCircle } from "lucide-react"; // Importar o ícone de check
-import image1 from "/1.jpg";
-import image7 from "/7.jpg";
-import image8 from "/8.jpg";
-import image20 from "/20.jpg";
-import image44 from "/44.jpg";
-import image69 from "/69.jpg";
-import image127 from "/127.jpg";
-import image141 from "/141.jpg";
-import image152 from "/152.jpg";
-import image156 from "/156.jpg";
-import image186 from "/186.jpg";
-import image227 from "/227.jpg";
-import image245 from "/245.jpg";
+import image1 from "/01.png";
+import image7 from "/02.png";
+import image8 from "/03.png";
+import image20 from "/04.png";
+import image44 from "/05.png";
+import image69 from "/06.png";
+import image127 from "/07.png";
+import image141 from "/08.png";
+import image152 from "/09.png";
 
-const cards = [image1, image7, image8, image20, image44, image69, image127, image141, image152, image156, image186, image227, image245];
+const cards = [image1, image7, image8, image20, image44, image69, image127, image141, image152];
 const duplicated = [...cards, ...cards];
 
 const CarouselSection = () => {
@@ -38,11 +34,11 @@ const CarouselSection = () => {
       </div>
 
       <div className="relative">
-        <div className="flex animate-marquee gap-2 sm:gap-2" style={{ width: "fit-content" }}>
+        <div className="flex animate-marquee" style={{ width: "fit-content" }}>
           {duplicated.map((card, i) => (
             <div
               key={i}
-              className="flex-shrink-0 w-80 h-80 sm:w-80 sm:h-80 rounded-xl overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-xl"
+              className="flex-shrink-0 w-80 h-80 sm:w-80 sm:h-80 rounded-xl overflow-hidden transition-transform duration-300"
             >
               <img
                 src={card}

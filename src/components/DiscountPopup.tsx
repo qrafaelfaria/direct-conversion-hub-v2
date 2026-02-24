@@ -35,14 +35,14 @@ const DiscountPopup: React.FC<DiscountPopupProps> = ({ isOpen, onClose }) => {
         </p>
 
         <a
-          href="https://pay.wiapy.com/YogiHVtzOo" // Placeholder, will be updated later
+          href="https://pay.wiapy.com/cCsuh8VAfR" // Placeholder, will be updated later
           className="cta-button w-full text-center text-base py-3 sm:py-4 mb-4 flex items-center justify-center gap-2"
         >
           SIM, QUERO A PROMOÇÃO! <span role="img" aria-label="fire">🔥</span>
         </a>
 
         <a
-          href="https://pay.wiapy.com/_0_yHm8dZ" // Placeholder, will be updated later
+          href="https://pay.wiapy.com/M2HsCRlzc" // Placeholder, will be updated later
           className="text-sm text-gray-500 hover:text-gray-700 underline"
         >
           NÃO, OBRIGADO. QUERO APENAS O PLANO BÁSICO POR R$10,00.

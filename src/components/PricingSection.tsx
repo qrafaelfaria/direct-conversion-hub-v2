@@ -109,7 +109,7 @@ const PricingSection = () => {
               ))}
             </ul>
 
-            <a href="https://pay.wiapy.com/eWxbrwirql" className="cta-button w-full text-center text-base animate-pulse-glow">
+            <a href="https://pay.wiapy.com/qnPOhYBi55" className="cta-button w-full text-center text-base animate-pulse-glow">
               QUERO O PREMIUM
             </a>
             <img src="/pagamentos.jpeg" alt="Métodos de Pagamento" className="mx-auto mt-4" />

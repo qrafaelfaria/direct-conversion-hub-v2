@@ -7,18 +7,18 @@ import labelsImage from "/A_colorful_and_202602112203.jpeg";
 const bonuses = [
   {
     image: labelsImage,
-    title: "Planner Semanal Infantil",
-    description: "Organize a semana das crianças de forma divertida e colorida.",
+    title: "Posts para o Instragram Prontos e Editáveis 2026",
+    description: "Posts para você atingir o seu público e lucrar com o Instagram.",
   },
   {
     image: stickersImage,
-    title: "Pack de Adesivos Divertidos",
-    description: "Adesivos para personalizar cadernos, livros e materiais escolares.",
+    title: "Modelo de Cardápio Digital Editável",
+    description: "Cardápio digital personalizável para você atender o seu cliente de uma forma única.",
   },
   {
     image: plannerImage,
-    title: "Etiquetas Escolares Personalizáveis",
-    description: "Etiquetas com diversos temas para identificar o material dos pequenos.",
+    title: "Aula de como Fazer as Personalizações no Canva",
+    description: "Aula gratuita para você aprender a fazer as personalizações da forma certa no Canva.",
   },
 ];
 

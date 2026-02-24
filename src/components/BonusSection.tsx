@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
 import { Timer } from "lucide-react";
-import plannerImage from "/Image_202602112202.jpeg";
-import stickersImage from "/A_cheerful_and_202602112202.jpeg";
-import labelsImage from "/A_colorful_and_202602112203.jpeg";
+import plannerImage from "/Instagram.jpeg";
+import stickersImage from "/Cardapio.jpeg";
+import labelsImage from "/Aula.jpeg";
 
 const bonuses = [
   {
@@ -62,7 +62,7 @@ const BonusSection = () => {
                 <img
                   src={bonus.image}
                   alt={bonus.title}
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover object-top"
                   loading="lazy"
                 />
               </div>

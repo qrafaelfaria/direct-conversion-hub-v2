@@ -6,7 +6,7 @@ import labelsImage from "/Aula.jpeg";
 
 const bonuses = [
   {
-    image: labelsImage,
+    image: plannerImage,
     title: "Posts para o Instragram Prontos e Editáveis 2026",
     description: "Posts para você atingir o seu público e lucrar com o Instagram.",
   },
@@ -16,7 +16,7 @@ const bonuses = [
     description: "Cardápio digital personalizável para você atender o seu cliente de uma forma única.",
   },
   {
-    image: plannerImage,
+    image: labelsImage,
     title: "Aula de como Fazer as Personalizações no Canva",
     description: "Aula gratuita para você aprender a fazer as personalizações da forma certa no Canva.",
   },

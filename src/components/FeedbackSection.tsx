@@ -3,10 +3,10 @@ import { motion } from "framer-motion";
 
 const FeedbackSection: React.FC = () => {
   const feedbacks = [
-    "/Depoimento01.webp",
-    "/Depoimento02.webp",
-    "/Depoimento03.webp",
-    "/Depoimento04.webp",
+    "/Feed01.png",
+    "/Feed03.png",
+    "/Feed04.png",
+    "/Feed05.png",
   ];
 
   return (
@@ -15,7 +15,7 @@ const FeedbackSection: React.FC = () => {
         <h2 className="text-3xl sm:text-4xl font-display font-black text-center text-foreground mb-10">
           O que nossos clientes dizem
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2">
           {feedbacks.map((imagePath, index) => (
             <div key={index} className="flex justify-center items-center">
               <img src={imagePath} alt={`Depoimento ${index + 1}`} className="max-w-full h-auto rounded-lg shadow-lg" />

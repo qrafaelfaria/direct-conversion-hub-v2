@@ -19,7 +19,7 @@ const FinalCTA = () => {
             Não perca essa oportunidade 
           </h2>
           <p className="text-muted-foreground text-lg mb-8">
-            Mais de 2.000 famílias já estão usando nossas capas. Garanta a sua agora.
+            Mais de 2.000 confeiteiras já estão usando nossos moldes. Garanta seu acesso agora.
           </p>
           <a href="#planos" className="cta-button animate-pulse-glow inline-flex items-center gap-2">
             GARANTIR MEU ACESSO

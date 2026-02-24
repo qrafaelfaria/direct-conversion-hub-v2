@@ -49,7 +49,7 @@ const PricingSection = () => {
 
             <ul className="space-y-3 mb-8 flex-1">
               {[
-                "+250 Capas de Caderno Infantil",
+                "+150 Moldes de Caixa Mini Confeiteiro",
                 "100% editável no Canva grátis",
                 "Arquivos organizados por tema",
               ].map((item) => (
@@ -92,12 +92,12 @@ const PricingSection = () => {
 
             <ul className="space-y-3 mb-8 flex-1">
               {[
-                "+250 Capas de Caderno Infantil",
+                "+150 Moldes de Caixa Mini Confeiteiro",
                 "100% editável no Canva grátis",
                 "Arquivos organizados por tema",
-                "Planner Semanal Infantil",
-                "Pack de Adesivos Divertidos",
-                "Etiquetas Escolares Personalizáveis",
+                "Posts para o Instragram Prontos e Editáveis 2026",
+                "Modelo de Cardápio Digital Editável",
+                "Aula de como Fazer as Personalizações no Canva",
                 "Acesso prioritário ao suporte",
                 "Acesso Vitalício",
                 "Suporte prioritário via WhatsApp",

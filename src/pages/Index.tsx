@@ -7,6 +7,7 @@ import BonusSection from "@/components/BonusSection";
 import PricingSection from "@/components/PricingSection";
 import FeedbackSection from "@/components/FeedbackSection"; // Importar o novo componente
 import GuaranteeSection from "@/components/GuaranteeSection"; // Importar o novo componente
+import FAQSection from "@/components/FAQSection";
 import FinalCTA from "@/components/FinalCTA";
 import StickyMobileCTA from "@/components/StickyMobileCTA";
 
@@ -18,8 +19,9 @@ const Index = () => {
       <CarouselSection />
       <FeedbackSection />
       <BonusSection />
-      <PricingSection /> {/* Adicionar o novo componente aqui */}
-      <GuaranteeSection /> {/* Adicionar o novo componente aqui */}
+      <PricingSection />
+      <FAQSection /> 
+      <GuaranteeSection />
       <FinalCTA />
     </div>
   );

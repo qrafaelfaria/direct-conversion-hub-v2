@@ -23,8 +23,8 @@ const CarouselSection = () => {
           viewport={{ once: true }}
           className="text-center"
         >
-          <h2 className="text-2xl sm:text-4xl font-display font-black text-foreground mb-3">
-            Centenas de Opções Editáveis{" "}
+          <h2 className="text-3xl sm:text-4xl font-display font-black text-foreground mb-3">
+            Centenas de opções editáveis{" "}
             <span className="text-[#ff0073]">no Canva</span>
           </h2>
           <p className="text-black text-lg">
@@ -51,7 +51,7 @@ const CarouselSection = () => {
         </div>
       </div>
           <div className="section-container mt-24 text-center">
-            <h2 className="text-2xl sm:text-3xl font-display font-black text-foreground mb-6">
+            <h2 className="text-3xl sm:text-4xl font-display font-black text-foreground mb-6">
               Veja o material por dentro
             </h2>
             <div className="relative w-full max-w-sm mx-auto aspect-[9/16] bg-gray-200 rounded-lg overflow-hidden">

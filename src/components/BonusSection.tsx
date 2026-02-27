@@ -51,7 +51,7 @@ const BonusSection = () => {
           </div>
           <h2 className="text-3xl sm:text-4xl font-display font-black text-foreground mb-3">
             Bônus exclusivos{" "}
-            <span className="text-[#ff0073]">apenas hoje</span>
+            <span className="text-[#ff0073]">apenas HOJE</span>
           </h2>
           <p className="text-muted-foreground text-lg">
             Aproveite antes que a oferta expire

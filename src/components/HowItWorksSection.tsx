@@ -5,7 +5,7 @@ const HowItWorksSection: React.FC = () => {
   return (
     <section className="py-12 sm:py-20 bg-white">
       <div className="section-container text-center">
-        <h2 className="text-2xl sm:text-4xl font-display font-black text-foreground mb-6">
+        <h2 className="text-3xl sm:text-4xl font-display font-black text-foreground mb-6">
           Muito simples de começar a utilizar!
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

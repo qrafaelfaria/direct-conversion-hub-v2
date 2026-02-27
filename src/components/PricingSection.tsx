@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Check, Star, Gift } from "lucide-react";
+import { Check, Star, Gift, ChevronsDown } from "lucide-react";
 import React, { useState } from "react";
 import DiscountPopup from "./DiscountPopup";
 
@@ -63,7 +63,18 @@ const PricingSection = () => {
             <a href="#" onClick={handleBasicClick} className="cta-button-outline w-full text-center text-base">
               QUERO O BÁSICO
             </a>
-            <img src="/pagamentos.jpeg" alt="Métodos de Pagamento" className="mx-auto mt-4" />
+
+            <div className="text-center mt-4">
+              <p className="text-red-500 font-bold">
+                ATENÇÃO: Temos uma oferta <span className="underline">ainda mais</span>{" "}
+                <span className="underline">VANTAJOSA</span> para você! Veja logo abaixo
+              </p>
+              <div className="flex flex-col items-center mt-2">
+                <ChevronsDown className="w-6 h-6 text-red-500" />
+                <ChevronsDown className="w-6 h-6 text-red-500 -mt-2" />
+              </div>
+            </div>
+
           </motion.div>
 
           {/* Premium */}
@@ -98,6 +109,8 @@ const PricingSection = () => {
                 "Posts para o Instragram Prontos e Editáveis 2026",
                 "Modelo de Cardápio Digital Editável",
                 "Aula de como Fazer as Personalizações no Canva",
+                "Moldes de Sacolinhas Páscoa",
+                "Moldes de Mini Ovos Páscoa",
                 "Acesso prioritário ao suporte",
                 "Acesso Vitalício",
                 "Suporte prioritário via WhatsApp",

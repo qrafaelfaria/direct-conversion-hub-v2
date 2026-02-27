@@ -36,15 +36,15 @@ const HeroSection = () => {
           <div className="flex flex-wrap items-center justify-center gap-6 text-sm text-black">
             <div className="flex items-center gap-2">
               <Shield className="w-4 h-4 text-black" />
-              <span>Acesso imediato</span>
+              <span>100% Editável</span>
             </div>
             <div className="flex items-center gap-2">
               <Clock className="w-4 h-4 text-black" />
-              <span>Oferta limitada</span>
+              <span>Pronto para imprimir</span>
             </div>
             <div className="flex items-center gap-2">
               <Zap className="w-4 h-4 text-black" />
-              <span>100% editável</span>
+              <span>Pode suar </span>
             </div>
           </div>
         </motion.div>

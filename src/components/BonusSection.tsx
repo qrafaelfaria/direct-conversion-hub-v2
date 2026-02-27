@@ -3,6 +3,9 @@ import { Timer } from "lucide-react";
 import plannerImage from "/Instagram.jpeg";
 import stickersImage from "/Cardapio.jpeg";
 import labelsImage from "/Aula.jpeg";
+import pascoaImage from "/Pascoa.png";
+import mini from "/Mini.jpeg";
+import sacola from "/Sacola.jpeg";
 
 const bonuses = [
   {
@@ -20,6 +23,16 @@ const bonuses = [
     title: "Aula de como Fazer as Personalizações no Canva",
     description: "Aula gratuita para você aprender a fazer as personalizações da forma certa no Canva.",
   },
+  {
+    image: sacola,
+    title: "Moldes de Sacolinhas Páscoa",
+    description: "Modelos temáticos prontos para editar e imprimir para a Páscoa.",
+  },
+  {
+    image: mini,
+    title: "Moldes de Mini Ovos Páscoa",
+    description: "Arquivos editáveis para criar mini ovos personalizados com praticidade.",
+  },
 ];
 
 const BonusSection = () => {
@@ -36,7 +49,7 @@ const BonusSection = () => {
             <Timer className="w-4 h-4" />
             <span>Disponível apenas hoje</span>
           </div>
-          <h2 className="text-2xl sm:text-4xl font-display font-black text-foreground mb-3">
+          <h2 className="text-3xl sm:text-4xl font-display font-black text-foreground mb-3">
             Bônus exclusivos{" "}
             <span className="text-[#ff0073]">apenas hoje</span>
           </h2>
@@ -56,7 +69,7 @@ const BonusSection = () => {
               className="card-benefit relative overflow-hidden"
             >
               <div className="absolute top-3 right-3 z-10">
-                <span className="badge-exclusive">BÔNUS</span>
+            <span className="badge-exclusive text-xl md:text-2xl px-6 py-3"># BÔNUS {i + 1}</span>
               </div>
               <div className="aspect-square rounded-xl overflow-hidden mb-4">
                 <img
@@ -66,11 +79,11 @@ const BonusSection = () => {
                   loading="lazy"
                 />
               </div>
-              <h3 className="text-base font-display font-bold text-foreground mb-2">
+              <h3 className="text-base font-display font-bold text-foreground text-center text-lg mb-2">
                 {bonus.title}
               </h3>
-              <p className="text-muted-foreground text-sm">
-                {bonus.description}
+              <p className="text-red-500 text-md font-semibold text-center line-through mb-2">
+                GRÁTIS HOJE
               </p>
             </motion.div>
           ))}

@@ -1,25 +1,11 @@
 import React from 'react';
 import { motion } from "framer-motion";
-import image1 from "/1.jpg";
-import image7 from "/3.jpg";
-import image8 from "/4.jpg";
-import image20 from "/6.jpg";
-import image44 from "/7.jpg";
-import image69 from "/23.jpg";
-import image127 from "/37.jpg";
-import image128 from "/45.jpg";
-import image129 from "/53.jpg";
-import image130 from "/61.jpg";
-import image131 from "/67.jpg";
-import image132 from "/81.jpg";
-import image133 from "/87.jpg";
-import image134 from "/103.jpg";
-import image135 from "/153.jpg";
-import image136 from "/178.jpg";
-import image137 from "/192.jpg";
-import image138 from "/196.jpg";
-import image139 from "/200.jpg";
-import image140 from "/203.jpg";
+import image1 from "/Pija01.jpg";
+import image7 from "/Pija02.jpg";
+import image8 from "/Pija03.jpg";
+import image20 from "/Pija04.jpg";
+import image44 from "/Pija05.jpg";
+import image69 from "/Pija06.jpg";
 
 const FeedbackSection: React.FC = () => {
   const images = [
@@ -28,7 +14,7 @@ const FeedbackSection: React.FC = () => {
     "/whatsapp-chat (2).png",
     "/whatsapp-chat (3).png",
   ];
-const cards = [image1, image7, image8, image20, image44, image69, image127, image128, image129, image130, image131, image132, image133, image134, image135, image136, image137, image138, image139, image140];
+const cards = [image1, image7, image8, image20, image44, image69];
 const duplicated = [...cards, ...cards];
 
   return (
@@ -62,12 +48,12 @@ const duplicated = [...cards, ...cards];
           </motion.div>
         </div>
 
-<div className="relative mt-12">
-        <div className="flex animate-marquee bg-white p-12" style={{ width: "fit-content" }}>
+<div className="relative mt-12 bg-gray-100 gap-4">
+        <div className="flex animate-marquee bg-white p-12 gap-4 bg-gray-100"  style={{ width: "fit-content" }}>
           {duplicated.map((card, i) => (
             <div
               key={i}
-              className="flex-shrink-0 w-80 h-80 sm:w-80 sm:h-80 rounded-xl overflow-hidden transition-transform duration-300"
+              className="flex-shrink-0 w-80 h-80 sm:w-80 sm:h-80 rounded-xl overflow-hidden transition-transform duration-300 bg-gray-100"
             >
               <img
                 src={card}

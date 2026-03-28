@@ -1,27 +1,18 @@
 import { motion } from "framer-motion";
 import { CheckCircle } from "lucide-react"; // Importar o ícone de check
-import image1 from "/1.jpg";
-import image7 from "/3.jpg";
-import image8 from "/4.jpg";
-import image20 from "/6.jpg";
-import image44 from "/7.jpg";
-import image69 from "/23.jpg";
-import image127 from "/37.jpg";
-import image128 from "/45.jpg";
-import image129 from "/53.jpg";
-import image130 from "/61.jpg";
-import image131 from "/67.jpg";
-import image132 from "/81.jpg";
-import image133 from "/87.jpg";
-import image134 from "/103.jpg";
-import image135 from "/153.jpg";
-import image136 from "/178.jpg";
-import image137 from "/192.jpg";
-import image138 from "/196.jpg";
-import image139 from "/200.jpg";
-import image140 from "/203.jpg";
+import image1 from "/Hosp01.webp";
+import image7 from "/Hosp02.webp";
+import image8 from "/Hosp03.webp";
+import image20 from "/Hosp04.webp";
+import image44 from "/Hosp05.webp";
+import image69 from "/Hosp06.webp";
+import image127 from "/Hosp07.webp";
+import image128 from "/Hosp08.webp";
+import image129 from "/Hosp09.webp";
+import image130 from "/Hosp10.webp";
+import image131 from "/Hosp11.webp";
 
-const cards = [image1, image7, image8, image20, image44, image69, image127, image128, image129, image130, image131, image132, image133, image134, image135, image136, image137, image138, image139, image140];
+const cards = [image1, image7, image8, image20, image44, image69, image127, image128, image129, image130, image131];
 const duplicated = [...cards, ...cards];
 
 const CarouselSection = () => {
@@ -44,7 +35,7 @@ const CarouselSection = () => {
       </div>
 
       <div className="relative">
-        <div className="flex animate-marquee" style={{ width: "fit-content" }}>
+        <div className="flex animate-marquee gap-4" style={{ width: "fit-content" }}>
           {duplicated.map((card, i) => (
             <div
               key={i}

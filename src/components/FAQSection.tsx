@@ -9,48 +9,46 @@ const FAQSection: React.FC = () => {
           Perguntas frequentes
         </h2>
         <p className="text-center text-muted-foreground mb-8">
-          Tire suas dúvidas sobre os moldes editáveis e como começar agora.
+          Tire suas dúvidas sobre os moldes hospitalares e como começar agora.
         </p>
 
         <Accordion type="single" collapsible className="w-full">
           <AccordionItem value="item-1">
-            <AccordionTrigger>O que eu recebo ao comprar?</AccordionTrigger>
+            <AccordionTrigger>O que está incluído no Pacote?</AccordionTrigger>
             <AccordionContent>
-              Você recebe acesso imediato por e‑mail ao kit com +250 moldes, todos organizados por tema e 100% editáveis no Canva. No plano Premium,
-              você ainda recebe bônus como posts para Instagram, cardápio digital e uma aula de personalização.
+              Você recebe acesso imediato a +100 moldes hospitalares profissionais, prontos para imprimir e produzir.
+              Inclui peças de uso diário em clínicas, consultórios e hospitais, com tamanhos do PP ao GG.
             </AccordionContent>
           </AccordionItem>
 
           <AccordionItem value="item-2">
-            <AccordionTrigger>Como faço a edição dos modelos?</AccordionTrigger>
+            <AccordionTrigger>Como recebo acesso ao material?</AccordionTrigger>
             <AccordionContent>
-              Os arquivos abrem no Canva através de um link. Você pode trocar textos, cores, fontes e detalhes
-              em poucos minutos, mesmo sem experiência em design, usando apenas o Canva grátis.
-            </AccordionContent>
-          </AccordionItem>
-
-          <AccordionItem value="item-3">
-            <AccordionTrigger>Posso imprimir? Em casa ou na gráfica?</AccordionTrigger>
-            <AccordionContent>
-              Sim. Após editar, basta exportar em alta qualidade e imprimir quantas vezes quiser,
-              em casa ou na gráfica de sua preferência.
-            </AccordionContent>
-          </AccordionItem>
-
-          <AccordionItem value="item-4">
-            <AccordionTrigger>Qual a diferença entre o Básico e o Premium?</AccordionTrigger>
-            <AccordionContent>
-              O Básico inclui +250 moldes editáveis no Canva. O Premium inclui tudo do Básico
-              e ainda: posts para Instagram, cardápio digital, aula de personalização,
-              acesso vitalício e suporte prioritário via WhatsApp.
+              Após a confirmação do pagamento, o acesso é liberado automaticamente.
+              Você recebe um e‑mail com o link de download para baixar e imprimir seus moldes quando quiser.
             </AccordionContent>
           </AccordionItem>
 
           <AccordionItem value="item-5">
-            <AccordionTrigger>Posso usar comercialmente? E se eu não gostar?</AccordionTrigger>
+            <AccordionTrigger>Os moldes cobrem quais tamanhos?</AccordionTrigger>
             <AccordionContent>
-              Você pode usar os moldes para seu negócio e vender os produtos criados a partir deles.
-              Se não ficar satisfeito, oferecemos garantia: seu dinheiro de volta em até 7 dias.
+              Os modelos incluem tamanhos do PP ao GG, com ajustes pensados para facilitar a produção sem perder a precisão das medidas.
+            </AccordionContent>
+          </AccordionItem>
+
+          <AccordionItem value="item-6">
+            <AccordionTrigger>Posso usar comercialmente e vender as peças?</AccordionTrigger>
+            <AccordionContent>
+              Sim. Você pode produzir e vender as peças confeccionadas a partir dos moldes,
+              inclusive para entregas rápidas em clínicas, consultórios e hospitais.
+            </AccordionContent>
+          </AccordionItem>
+
+          <AccordionItem value="item-7">
+            <AccordionTrigger>Há suporte se eu tiver dúvidas?</AccordionTrigger>
+            <AccordionContent>
+              Sim. Você conta com suporte prioritário via WhatsApp.
+              Em caso de dúvidas sobre download, impressão ou montagem, nossa equipe ajuda você.
             </AccordionContent>
           </AccordionItem>
         </Accordion>
@@ -60,4 +58,3 @@ const FAQSection: React.FC = () => {
 };
 
 export default FAQSection;
-

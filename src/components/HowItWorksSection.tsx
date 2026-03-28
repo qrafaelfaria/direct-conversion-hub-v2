@@ -27,13 +27,13 @@ const HowItWorksSection: React.FC = () => {
               CHEGA NO E-MAIL
             </h3>
             <p className="text-gray-700 text-center">
-              pós a compra você recebe o acesso ao kit completo diretamente no seu email.
+              Após a compra você recebe o acesso ao kit completo diretamente no seu email.
             </p>
           </div>
 
           {/* Card 3: Os Pequenos Amam */}
           <div className="flex flex-col items-center p-6 border-2 border-dashed border-blue-300 rounded-xl">
-            <Printer className="w-12 h-12 text-[#ff0073] mb-4" />
+            <Printer className="w-12 h-12 text-[#0c3769] mb-4" />
             <h3 className="text-xl font-display font-bold text-blue-600 mb-2">
               BAIXE, IMPRIMA E USE
             </h3>

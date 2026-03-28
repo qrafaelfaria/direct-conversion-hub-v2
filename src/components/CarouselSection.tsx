@@ -34,12 +34,11 @@ const CarouselSection = () => {
           viewport={{ once: true }}
           className="text-center"
         >
-          <h2 className="text-3xl sm:text-4xl font-display font-black text-foreground mb-3">
-            Centenas de opções editáveis{" "}
-            <span className="text-[#ff0073]">no Canva</span>
+          <h2 className="text-3xl sm:text-4xl font-display font-black text-[#0c3769] mb-3">
+            Confira Alguns dos Modelos que você vai receber
           </h2>
           <p className="text-black text-lg">
-            Escolha o modelo ideal para você
+            Ideal para costureiras que buscam agilidade e precisão!
           </p>
         </motion.div>
       </div>

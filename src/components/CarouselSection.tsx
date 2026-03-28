@@ -35,7 +35,7 @@ const CarouselSection = () => {
           className="text-center"
         >
           <h2 className="text-3xl sm:text-4xl font-display font-black text-[#0c3769] mb-3">
-            Confira Alguns dos Modelos que você vai receber
+            Confira alguns dos modelos que você vai receber
           </h2>
           <p className="text-black text-lg">
             Ideal para costureiras que buscam agilidade e precisão!
@@ -60,33 +60,14 @@ const CarouselSection = () => {
           ))}
         </div>
       </div>
-      
-      <div className="section-container mt-10">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {[
-            "✅ SACOLA OVO 100G - 150G",
-            "✅ SACOLA OVO 200G - 250G",
-            "✅ SACOLA OVO 300G - 350G",
-            "✅ SACOLA OVINHO 50G",
-            "✅ CAIXA SURPRESA 300G - 350G",
-            "✅ KIT CONFEITEIRO",
-            "🎁 POSTS PARA O INSTAGRAM",
-            "🎁 CARDÁPIOS EDITÁVEIS",
-            "🎁 TUTORIAL PERSONALIZAÇÃO NO CANVA"
-          ].map((text) => (
-            <div key={text} className="card-benefit text-center border-2 border-[#ff0073]/60 rounded-full py-3">
-              <p className="text-base sm:text-lg font-display font-bold text-foreground">{text}</p>
-            </div>
-          ))}
-        </div>
-      </div>
+
           <div className="section-container mt-24 text-center">
             <h2 className="text-3xl sm:text-4xl font-display font-black text-foreground mb-6">
-              Veja o material por dentro
+              Veja como você vai imprimir seus moldes 👇
             </h2>
             <div className="relative w-full max-w-sm mx-auto aspect-[9/16] bg-gray-200 rounded-lg overflow-hidden">
               <iframe
-                src="https://player.vimeo.com/video/1173128316"
+                src="https://player.vimeo.com/video/1177880972"
                 title="Vimeo video player"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

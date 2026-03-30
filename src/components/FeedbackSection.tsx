@@ -20,7 +20,7 @@ const FeedbackSection: React.FC = () => {
   }, [api]);
 
   return (
-    <section className="sm:py-20 bg-gray-100 p-8">
+    <section className="sm:py-20 bg-secondary p-8">
       <div className="section-container">
         <h2 className="text-3xl sm:text-4xl font-display font-black text-center text-foreground mb-10">
           O que nossos clientes dizem

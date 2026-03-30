@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 const AccessInfoSection = () => {
   return (
-    <section className="py-4 bg-[#0c3769]">
+    <section className="py-4 bg-secondary">
       <div className="section-container">
         <div className="max-w-xl mx-auto">
           <motion.div

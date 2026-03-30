@@ -10,13 +10,14 @@ import GuaranteeSection from "@/components/GuaranteeSection"; // Importar o novo
 import FAQSection from "@/components/FAQSection";
 import FinalCTA from "@/components/FinalCTA";
 import StickyMobileCTA from "@/components/StickyMobileCTA";
+import OpportunitySection from "@/components/OpportunitySection";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background pb-16 sm:pb-0">
       <HeroSection />
-      <HowItWorksSection />
       <CarouselSection />
+      <OpportunitySection />
       <FeedbackSection />
       <PricingSection />
       <FAQSection /> 

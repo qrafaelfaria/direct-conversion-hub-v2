@@ -18,7 +18,7 @@ const HeroSection = () => {
 
           <h1 className="text-3xl sm:text-5xl lg:text-6xl font-display font-black leading-tight text-white text-balance mt-6">
             DESCUBRA COMO USAR +100 MOLDES DE ROUPAS HOSPITALARES PARA CRIAR UMA RENDA CONSTANTE{" "}
-            <span className="text-[#ffe500]">— MESMO COMEÇANDO DO ZERO NA COSTURA</span>
+            <span className="text-[#ffe500]"> MESMO COMEÇANDO DO ZERO NA COSTURA</span>
           </h1>
 
           <img src="/HeroHospital.png" alt="Descrição da Imagem" className="mx-auto mb-8 w-full max-w-7xl h-auto object-contain mt-12" />

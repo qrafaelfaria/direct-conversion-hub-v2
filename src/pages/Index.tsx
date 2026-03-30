@@ -11,6 +11,7 @@ import FAQSection from "@/components/FAQSection";
 import FinalCTA from "@/components/FinalCTA";
 import StickyMobileCTA from "@/components/StickyMobileCTA";
 import OpportunitySection from "@/components/OpportunitySection";
+import AccessInfoSection from "@/components/AccessInfoSection";
 
 const Index = () => {
   return (
@@ -19,6 +20,7 @@ const Index = () => {
       <CarouselSection />
       <OpportunitySection />
       <FeedbackSection />
+      <AccessInfoSection />
       <PricingSection />
       <FAQSection /> 
       <GuaranteeSection />

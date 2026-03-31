@@ -7,6 +7,7 @@ import BonusSection from "@/components/BonusSection";
 import PricingSection from "@/components/PricingSection";
 import FeedbackSection from "@/components/FeedbackSection"; // Importar o novo componente
 import GuaranteeSection from "@/components/GuaranteeSection"; // Importar o novo componente
+import InstructorSection from "@/components/InstructorSection";
 import FAQSection from "@/components/FAQSection";
 import FinalCTA from "@/components/FinalCTA";
 import StickyMobileCTA from "@/components/StickyMobileCTA";
@@ -21,6 +22,7 @@ const Index = () => {
       <PricingSection />
       <GuaranteeSection />
       <FeedbackSection />
+      <InstructorSection />
       <FAQSection /> 
       <FinalCTA />
     </div>

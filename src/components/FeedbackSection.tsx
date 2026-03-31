@@ -22,9 +22,12 @@ const FeedbackSection: React.FC = () => {
   return (
     <section className="sm:py-20 bg-secondary p-8">
       <div className="section-container">
-        <h2 className="text-3xl sm:text-4xl font-display font-black text-center text-foreground mb-10">
-          O que nossos clientes dizem
+        <h2 className="text-3xl sm:text-4xl font-display font-black text-center text-foreground mb-4">
+          Depoimentos reais
         </h2>
+        <h1 className="text-center text-lg sm:text-xl leading-relaxed text-gray-700 font-medium">
+          Veja oque nossas alunas estão dizendo
+        </h1>
         <Carousel opts={{ loop: true }} setApi={setApi} className="max-w-4xl mx-auto">
           <CarouselContent>
             {images.map((src, index) => (
@@ -41,18 +44,6 @@ const FeedbackSection: React.FC = () => {
             ))}
           </CarouselContent>
         </Carousel>
-        <div className="section-container mt-12">
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="flex flex-col sm:flex-row items-center justify-center gap-4"
-          >
-            <a href="#planos" className="cta-button animate-pulse-glow w-full sm:w-auto text-center">
-              QUERO ACESSAR AGORA
-            </a>
-          </motion.div>
-        </div>
       </div>
     </section>
   );

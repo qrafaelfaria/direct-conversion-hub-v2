@@ -19,9 +19,9 @@ const Index = () => {
       <CarouselSection />
       <OpportunitySection />
       <PricingSection />
+      <GuaranteeSection />
       <FeedbackSection />
       <FAQSection /> 
-      <GuaranteeSection />
       <FinalCTA />
     </div>
   );

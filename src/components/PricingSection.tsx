@@ -1,11 +1,28 @@
 import { motion } from "framer-motion";
-import { Check, Star, Infinity, ShieldCheck } from "lucide-react";
+import { Check, Star, Infinity, ShieldCheck, MessageCircle } from "lucide-react";
 
 const PricingSection = () => {
   return (
-    <section id="planos" className="py-12 sm:py-20 bg-[#fbe8ee]">
+    <section id="planos" className="py-2 sm:py-2 bg-[#fbe8ee]">
       <div className="section-container">
         <div className="max-w-2xl mx-auto">
+          {/* Delivery Notice Card */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="mb-8 relative bg-[#fff5f7] border-2 border-[#f472b6]/30 rounded-[2rem] p-6 text-center shadow-sm"
+          >
+            <p className="text-gray-700 font-bold text-sm sm:text-base leading-relaxed">
+              Aqui no <span className="text-[#c43c6f]">Curso de Costura Hospitalar</span>, após o pagamento você receberá o acesso do curso no seu <span className="text-[#c43c6f]">Email</span> e também no seu <span className="text-[#c43c6f]">WhatsApp</span>.
+            </p>
+            <div className="absolute -bottom-3 left-1/2 -translate-x-1/2 bg-white rounded-full p-1 border border-[#f472b6]/30">
+              <div className="bg-[#22c55e] rounded-full p-1">
+                <MessageCircle className="w-4 h-4 text-white fill-white" />
+              </div>
+            </div>
+          </motion.div>
+
           {/* Premium Card */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -61,7 +78,7 @@ const PricingSection = () => {
               <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-y-3 gap-x-4 text-left">
                 {[
                   "+100 Moldes Hospitalares",
-                  "580+ Vídeo Aulas",
+                  "+100 Vídeo Aulas",
                   "Lista de Fornecedores",
                   "Suporte e Comunidade",
                   "Certificado de Conclusão",

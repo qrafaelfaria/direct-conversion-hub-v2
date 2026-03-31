@@ -1,113 +1,101 @@
 import { motion } from "framer-motion";
-import { Check, Star } from "lucide-react";
+import { Check, Star, Infinity, ShieldCheck } from "lucide-react";
 
 const PricingSection = () => {
   return (
-    <section id="planos" className="py-4 sm:py-20 bg-[#c43c6f]">
+    <section id="planos" className="py-12 sm:py-20 bg-[#fbe8ee]">
       <div className="section-container">
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="text-center mb-12"
-        >
-        </motion.div>
-
-        <div className="max-w-xl mx-auto">
-          
-          {/* Premium */}
+        <div className="max-w-2xl mx-auto">
+          {/* Premium Card */}
           <motion.div
-            initial={{ opacity: 0, x: 20 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="card-benefit flex flex-col relative border-2 border-[#c43c6f] shadow-lg shadow-[#c43c6f]/50"
+            className="bg-white flex flex-col relative border-2 border-[#f472b6]/30 rounded-[2.5rem] shadow-xl overflow-hidden"
           >
-            <div className="absolute -top-3 left-1/2 -translate-x-1/2">
+            {/* Header Badges */}
+            <div className="bg-[#c43c6f] py-2 text-center text-white text-sm font-black uppercase tracking-wider">
+              ⭐ MAIS VENDIDO ⭐
+            </div>
+            <div className="bg-[#cc1d24] py-1.5 text-center text-white text-xs sm:text-sm font-black uppercase tracking-wider">
+              🔥 RESTAM APENAS 10 VAGAS 🔥
             </div>
 
-            <div className="px-4 sm:px-6 pt-4">
-              <div className="mx-auto max-w-sm">
-                <div className="px-4 py-2 text-center bg-[#c43c6f] text-white font-display text-2xl font-black">
-                  VEJA TUDO O QUE VOCÊ VAI RECEBER AO ADQUIRIR HOJE
+            <div className="px-6 sm:px-12 pt-10 text-center">
+              <h2 className="text-2xl sm:text-3xl font-display font-black text-gray-900 uppercase">
+                PLANO PREMIUM
+              </h2>
+              <p className="text-gray-500 font-medium mt-1">Acesso completo ao curso</p>
+
+              {/* Acesso Vitalício Highlight */}
+              <div className="mt-8 p-6 border-2 border-[#f472b6]/30 rounded-2xl bg-[#fff5f7]">
+                <div className="flex items-center justify-center gap-3 text-[#c43c6f]">
+                  <div className="bg-[#7c3aed] p-1 rounded-md text-white">
+                    <Infinity className="w-6 h-6" />
+                  </div>
+                  <span className="text-2xl sm:text-3xl font-black tracking-tight">
+                    ACESSO VITALÍCIO
+                  </span>
                 </div>
+                <p className="mt-2 text-gray-700 text-sm sm:text-base">
+                  Pague uma única vez e tenha acesso <span className="font-bold">para sempre</span>
+                </p>
               </div>
-            </div>
 
-            <div className="mx-4 sm:mx-6 mt-4 rounded-2xl border-2 border-red-500 p-4 sm:p-6">
-              <div className="inline-flex items-center gap-2 rounded-full border border-text-red-500 px-3 py-1 mb-4">
-                <span className="text-red-500 text-medium font-bold text-center">🎁 Todos os bônus exclusivos liberado</span>
+              {/* Pricing */}
+              <div className="mt-10 space-y-1">
+                <p className="text-gray-400 line-through text-lg">De R$ 97,00</p>
+                <p className="text-gray-500 font-medium">Por apenas</p>
+                <div className="text-5xl sm:text-6xl font-black text-[#c43c6f] mt-2">
+                  R$ 19,90
+                </div>
+                <p className="text-[#c43c6f] font-bold text-xl mt-1">
+                  ou 4x de R$ 5,57
+                </p>
+                <p className="text-gray-400 text-sm mt-4 italic">
+                  Pagamento único, sem mensalidades.
+                </p>
               </div>
-              <ul className="space-y-3">
+
+              {/* Benefits List */}
+              <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 gap-y-3 gap-x-4 text-left">
                 {[
-                  "✅ +100 Moldes Hospitalares Profissionais",
-                  "✅ Lista de Fornecedores Atualizada",
-                  "✅ Certificado de Finalização",
-                  "✅ Grupo VIP Alunas",
-                  "✅ Acesso Vitalício + Acesso Imediato",
-                  "✅ Atualizações Constantes",
-                  "✅ Garantia de satisfação de 30 Dias",
-                  "🎁 Guia Fotos que Vendem com o Celular",
-                  "🎁 Como  Embalar e Calcular o Frete sem Erro",
-                  "🎁 Guia de Precificação Simples para Iniciantes",
-                  "🎁 Guia de Vendas (Whatsapp e Instagram)"
+                  "+100 Moldes Hospitalares",
+                  "580+ Vídeo Aulas",
+                  "Lista de Fornecedores",
+                  "Suporte e Comunidade",
+                  "Certificado de Conclusão",
+                  "Grupo VIP no WhatsApp",
+                  "Acesso Imediato",
+                  "Atualizações Constantes"
                 ].map((item) => (
-                  <li key={item} className="flex items-start gap-2 text-medium text-black font-semibold">
+                  <div key={item} className="flex items-center gap-2 text-sm sm:text-base text-gray-700 font-semibold">
+                    <div className="flex-shrink-0 w-5 h-5 rounded-full bg-[#c43c6f] flex items-center justify-center">
+                      <Check className="w-3 h-3 text-white stroke-[4px]" />
+                    </div>
                     <span>{item}</span>
-                  </li>
+                  </div>
                 ))}
-              </ul>
+              </div>
+
+              {/* CTA Button */}
+              <div className="mt-12">
+                <a 
+                  href="https://pay.wiapy.com/eWxbrwirql" 
+                  className="block w-full py-5 bg-[#c43c6f] text-white text-xl font-black uppercase rounded-2xl shadow-lg hover:bg-[#a32d5a] transition-all transform hover:scale-[1.02] active:scale-[0.98] animate-pulse-glow"
+                >
+                  QUERO O PREMIUM
+                </a>
+              </div>
+
+              {/* Footer */}
+              <div className="mt-6 mb-10 flex items-center justify-center gap-2 text-sm text-gray-500 font-medium">
+                <div className="w-5 h-5 rounded-full bg-[#22c55e] flex items-center justify-center">
+                  <Check className="w-3 h-3 text-white stroke-[4px]" />
+                </div>
+                <span>Garantia de 30 dias</span>
+              </div>
             </div>
-
-            <div className="px-6 mt-6 grid grid-cols-1 sm:grid-cols-3 gap-3 text-xs sm:text-sm text-muted-foreground">
-              <div className="flex items-center justify-center gap-2">
-                <Star className="w-4 h-4 text-black" />
-                <span>Acesso vitalício • 100% online</span>
-              </div>
-              <div className="flex items-center justify-center gap-2">
-                <Star className="w-4 h-4 text-black" />
-                <span>Certificado de finalização incluso</span>
-              </div>
-              <div className="flex items-center justify-center gap-2">
-                <Star className="w-4 h-4 text-black" />
-                <span>Suporte VIP prioritário</span>
-              </div>
-            </div>
-
-            <div className="border-t mt-6 mb-4" />
-
-            <div className="px-6 text-center">
-              <div className="inline-flex items-center gap-2 rounded-full bg-[#ff0073]/10 border border-[#ff0073] px-3 py-1 mb-3">
-                <span className="text-[#ff0073] text-sm font-bold">Hoje Desconto Especial</span>
-              </div>
-              <div className="text-muted-foreground">
-                <span className="line-through">De R$ 97,00</span>
-              </div>
-              <p className="mt-1 text-[#0c3769] font-display font-black">HOJE POR APENAS</p>
-              <div className="mt-1 text-4xl sm:text-5xl text-[#17a34a] font-display font-black">
-                4x de R$ 5,57
-              </div>
-              <p className="mt-2 text-medium text-black">
-                ou R$ 19,90 à vista
-              </p>
-            </div>
-
-            <div className="px-6 mt-4 text-center text-sm text-muted-foreground">
-              <p className="uppercase font-bold text-red-500">
-                Hoje {new Date().toLocaleDateString("pt-BR", { weekday: "long", year: "numeric", month: "long", day: "numeric" })}
-              </p>
-              <p>É o último dia para acessar com desconto especial</p>
-            </div>
-
-            <div className="px-6 mt-4">
-              <a href="https://pay.wiapy.com/eWxbrwirql" className="cta-button w-full text-center text-base animate-pulse-glow">
-                GARANTIR AGORA
-              </a>
-            </div>
-
-            <img src="/pagamentos.jpeg" alt="Métodos de Pagamento" className="mx-auto mt-4" />
-            <p className="text-center text-xs text-muted-foreground mt-3">
-              🔒 Pagamento 100% seguro • Acesso imediato
-            </p>
           </motion.div>
         </div>
       </div>

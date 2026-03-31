@@ -3,52 +3,55 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 
 const FAQSection: React.FC = () => {
   return (
-    <section className="py-12 sm:py-20 bg-secondary">
+    <section className="py-12 sm:py-20 bg-[#fbe8ee]">
       <div className="section-container max-w-3xl">
-        <h2 className="text-2xl sm:text-4xl font-display font-black text-foreground text-center mb-6">
-          Perguntas frequentes
+        <h2 className="text-3xl sm:text-4xl font-display font-black text-[#c43c6f] text-center mb-6">
+          Perguntas Frequentes
         </h2>
-        <p className="text-center text-muted-foreground mb-8">
-          Tire suas dúvidas sobre os moldes hospitalares e como começar agora.
+        <p className="text-center text-gray-600 mb-8 font-medium">
+          Tire suas dúvidas sobre o Curso de Costura Hospitalar e comece sua jornada hoje mesmo.
         </p>
 
-        <Accordion type="single" collapsible className="w-full">
-          <AccordionItem value="item-1">
-            <AccordionTrigger>O que está incluído no Pacote?</AccordionTrigger>
-            <AccordionContent>
-              Você recebe acesso imediato a +100 moldes hospitalares profissionais, prontos para imprimir e produzir.
-              Inclui peças de uso diário em clínicas, consultórios e hospitais, com tamanhos do PP ao GG.
+        <Accordion type="single" collapsible className="w-full space-y-3">
+          <AccordionItem value="item-1" className="bg-white rounded-2xl border-2 border-[#f472b6]/20 px-4">
+            <AccordionTrigger className="text-[#c43c6f] font-bold text-left hover:no-underline">O curso serve para quem nunca costurou?</AccordionTrigger>
+            <AccordionContent className="text-gray-600 font-medium leading-relaxed">
+              Sim! O curso foi desenhado do absoluto zero. Você aprenderá desde como manusear a máquina até o acabamento final das peças hospitalares, com um método simples e direto ao ponto.
             </AccordionContent>
           </AccordionItem>
 
-          <AccordionItem value="item-2">
-            <AccordionTrigger>Como recebo acesso ao material?</AccordionTrigger>
-            <AccordionContent>
-              Após a confirmação do pagamento, o acesso é liberado automaticamente.
-              Você recebe um e‑mail com o link de download para baixar e imprimir seus moldes quando quiser.
+          <AccordionItem value="item-2" className="bg-white rounded-2xl border-2 border-[#f472b6]/20 px-4">
+            <AccordionTrigger className="text-[#c43c6f] font-bold text-left hover:no-underline">Como recebo acesso ao curso?</AccordionTrigger>
+            <AccordionContent className="text-gray-600 font-medium leading-relaxed">
+              O acesso é imediato! Assim que seu pagamento for confirmado, você receberá automaticamente os dados de acesso no seu e-mail e também uma mensagem de boas-vindas no seu WhatsApp.
             </AccordionContent>
           </AccordionItem>
 
-          <AccordionItem value="item-5">
-            <AccordionTrigger>Os moldes cobrem quais tamanhos?</AccordionTrigger>
-            <AccordionContent>
-              Os modelos incluem tamanhos do PP ao GG, com ajustes pensados para facilitar a produção sem perder a precisão das medidas.
+          <AccordionItem value="item-3" className="bg-white rounded-2xl border-2 border-[#f472b6]/20 px-4">
+            <AccordionTrigger className="text-[#c43c6f] font-bold text-left hover:no-underline">Vou receber os moldes prontos?</AccordionTrigger>
+            <AccordionContent className="text-gray-600 font-medium leading-relaxed">
+              Sim! Você terá acesso a mais de 100 moldes profissionais (PP ao GG) prontos para imprimir em tamanho real. Basta imprimir, cortar o tecido e seguir as aulas de costura.
             </AccordionContent>
           </AccordionItem>
 
-          <AccordionItem value="item-6">
-            <AccordionTrigger>Posso usar comercialmente e vender as peças?</AccordionTrigger>
-            <AccordionContent>
-              Sim. Você pode produzir e vender as peças confeccionadas a partir dos moldes,
-              inclusive para entregas rápidas em clínicas, consultórios e hospitais.
+          <AccordionItem value="item-4" className="bg-white rounded-2xl border-2 border-[#f472b6]/20 px-4">
+            <AccordionTrigger className="text-[#c43c6f] font-bold text-left hover:no-underline">O acesso ao curso é por quanto tempo?</AccordionTrigger>
+            <AccordionContent className="text-gray-600 font-medium leading-relaxed">
+              O seu acesso é vitalício! Isso significa que você pode assistir às aulas no seu ritmo, quantas vezes quiser, e ainda terá direito a todas as atualizações futuras sem pagar nada a mais por isso.
             </AccordionContent>
           </AccordionItem>
 
-          <AccordionItem value="item-7">
-            <AccordionTrigger>Há suporte se eu tiver dúvidas?</AccordionTrigger>
-            <AccordionContent>
-              Sim. Você conta com suporte prioritário via WhatsApp.
-              Em caso de dúvidas sobre download, impressão ou montagem, nossa equipe ajuda você.
+          <AccordionItem value="item-5" className="bg-white rounded-2xl border-2 border-[#f472b6]/20 px-4">
+            <AccordionTrigger className="text-[#c43c6f] font-bold text-left hover:no-underline">Terei suporte se tiver dúvidas?</AccordionTrigger>
+            <AccordionContent className="text-gray-600 font-medium leading-relaxed">
+              Com certeza! Você terá acesso ao nosso Grupo VIP de alunas e suporte prioritário para tirar qualquer dúvida técnica sobre a costura ou sobre os moldes.
+            </AccordionContent>
+          </AccordionItem>
+
+          <AccordionItem value="item-6" className="bg-white rounded-2xl border-2 border-[#f472b6]/20 px-4">
+            <AccordionTrigger className="text-[#c43c6f] font-bold text-left hover:no-underline">Quais peças vou aprender a fazer?</AccordionTrigger>
+            <AccordionContent className="text-gray-600 font-medium leading-relaxed">
+              Você aprenderá a produzir a linha completa de uniformes hospitalares: Scrubs (pijamas cirúrgicos), jalecos profissionais, toucas, máscaras e roupas para clínicas de estética e consultórios.
             </AccordionContent>
           </AccordionItem>
         </Accordion>
